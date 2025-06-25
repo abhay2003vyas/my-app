@@ -1,0 +1,12 @@
+/* styles.css */
+.responsive-chroma {
+  height: 800px;
+  position: relative;
+  background: white;
+}
+
+@media (max-width: 640px) {
+  .responsive-chroma {
+    height: 200px !important;
+  }
+}
